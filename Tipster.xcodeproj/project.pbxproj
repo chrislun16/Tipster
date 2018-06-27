@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		668C2D0320E310A00054D333 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 668C2D0220E310A00054D333 /* SettingsViewController.m */; };
 		66EE0E1820E2D6EC0071FECF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EE0E1720E2D6EC0071FECF /* AppDelegate.m */; };
 		66EE0E1B20E2D6EC0071FECF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EE0E1A20E2D6EC0071FECF /* ViewController.m */; };
 		66EE0E1E20E2D6EC0071FECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66EE0E1C20E2D6EC0071FECF /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		668C2D0120E310A00054D333 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		668C2D0220E310A00054D333 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		66EE0E1320E2D6EC0071FECF /* Tipster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66EE0E1620E2D6EC0071FECF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		66EE0E1720E2D6EC0071FECF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -106,6 +109,8 @@
 				66EE0E1920E2D6EC0071FECF /* ViewController.h */,
 				66EE0E1A20E2D6EC0071FECF /* ViewController.m */,
 				66EE0E1C20E2D6EC0071FECF /* Main.storyboard */,
+				668C2D0120E310A00054D333 /* SettingsViewController.h */,
+				668C2D0220E310A00054D333 /* SettingsViewController.m */,
 				66EE0E1F20E2D6ED0071FECF /* Assets.xcassets */,
 				66EE0E2120E2D6ED0071FECF /* LaunchScreen.storyboard */,
 				66EE0E2420E2D6ED0071FECF /* Info.plist */,
@@ -265,6 +270,7 @@
 				66EE0E1B20E2D6EC0071FECF /* ViewController.m in Sources */,
 				66EE0E2620E2D6ED0071FECF /* main.m in Sources */,
 				66EE0E1820E2D6EC0071FECF /* AppDelegate.m in Sources */,
+				668C2D0320E310A00054D333 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,12 +440,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H3UNJFN69;
 				INFOPLIST_FILE = Tipster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Tipster;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ezra.Tipster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,12 +458,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H3UNJFN69;
 				INFOPLIST_FILE = Tipster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Tipster;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ezra.Tipster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
